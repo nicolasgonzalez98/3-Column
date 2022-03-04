@@ -113,10 +113,46 @@ article p{
 }
 
 button{
-    
+    height: 2.5rem;
+    width: 10rem;
     border-style: none;
     justify-content: end;
+    background-color: var(--very-light-gray);
+    border-radius: 20px;
+    font-family: 'Lexend Deca', sans-serif;
+}
 
+button:hover{
+    border: 2px solid ;
+    
+}
+
+.left button{
+    color: var(--bright-orange);
+    
+}
+
+.left button:hover{
+    background-color: var(--bright-orange);
+    color: var(--very-light-gray);
+}
+
+.centre button{
+    color: var(--dark-cyan);
+}
+
+.centre button:hover{
+    background-color: var(--dark-cyan);
+    color: var(--very-light-gray);
+}
+
+.right button{
+    color: var(--very-dark-cyan);
+}
+
+.right button:hover{
+    background-color: var(--very-dark-cyan);
+    color: var(--very-light-gray);
 }
 
 
